@@ -1,0 +1,8 @@
+---
+- name: TESTING 1ST PLAYBOOK
+  hosts: all
+  tasks:
+    - name: RESTARTING SSHD
+      service:
+        name: sshd
+        state: restarted
