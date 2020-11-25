@@ -1,0 +1,5 @@
+---
+- name: Priting out OS Family
+  hosts: all
+  tasks:
+    - debug: var=ansible_os_family
